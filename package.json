@@ -1,0 +1,25 @@
+{
+  "name": "zendeskcodingchallenge",
+  "version": "1.0.0",
+  "description": "Fetch and display support tickets and details of them from zendesk APIs ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node lib/app",
+    "tap": "tap",
+    "test": "npm run tap"
+  },
+  "author": "Sagnik Hajra",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fetch-headers": "^2.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "tap": "^15.1.5"
+  }
+}

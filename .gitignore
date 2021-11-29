@@ -1,0 +1,7 @@
+node_modules
+tickets.json
+response.js
+.nyc_output
+coverage
+.env
+.tap
